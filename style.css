@@ -6,13 +6,13 @@
 
 @font-face{
     font-family: "myfont";
-    src: url("fonts/odstemplik/odstemplik.otf") format("opentype"),url("fonts/odstemplik/odstemplikBold.otf") format("opentype");
+    src: url("odstemplik.otf") format("opentype"),url("odstemplikBold.otf") format("opentype");
 }
 
 
 /* ヘッダー */
 .top-img {
-    background-image: url("imgs/img01.jpg");
+    background-image: url("img01.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,7 +40,7 @@ nav .fas, nav .far {
 
 /* ナイトスカイ */
 .night-sky {
-    background-image: url("imgs/fix-bg.jpg");
+    background-image: url("fix-bg.jpg");
     padding: 200px 0;
     text-align: center;
     background-attachment: fixed;
